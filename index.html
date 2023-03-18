@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>COMPUTER SCIENCE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
     <link
       rel="stylesheet"
@@ -10,11 +11,8 @@
     <style>
       body {
         font-family: "Source Code Pro", sans-serif;
-        font-size: 135%;
+        padding: 0px 5%;
         line-height: 1.5;
-        background-color: black;
-        color: white;
-        margin: 0 10%;
         background-color: black;
         color: white;
       }
@@ -22,6 +20,9 @@
         text-shadow: 4px 4px 4px #aaa;
         text-align: center;
         color: red;
+        white-space: pre;
+      }
+      h3 {
         white-space: pre;
       }
       p {
@@ -33,23 +34,29 @@
         width: 50%;
       }
       table {
-        text-align: center;
         border: 1px solid green;
         border-collapse: collapse;
         margin: auto;
       }
       td {
-        /* width: "300"; */
         white-space: pre;
         text-align: center;
         border: 1px solid green;
         border-collapse: collapse;
+        font-size: 0.8em;
       }
       td a {
         color: red;
         display: block;
         line-height: 0px;
-        font-size: 18px;
+      }
+      @media screen and (max-width: 450px) {
+        h1,
+        h3 {
+          font-size: 1.1em !important;
+          line-height: 80%;
+          margin-top: 10px;
+        }
       }
     </style>
   </head>
@@ -101,7 +108,7 @@
 
     <!-- prettier-ignore-->
     <table>
-      <caption><h3 style="white-space: pre">S U M M A R Y   F O R   C S</h3></caption>
+      <caption><h3>S U M M A R Y   F O R   C S</h3></caption>
       <tr>
         <td>
           <a href="#Intro">I N T R O   T O   C S</a>
